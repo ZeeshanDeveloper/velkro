@@ -1,0 +1,1070 @@
+/*Media - Stylesheet*/
+.nav-opener{
+    display: none;
+}
+@media (min-width: 1700px) and (max-width: 14000px){
+    .after-slider .home-gren-box .left{
+        padding: 0px 120px;
+    }
+    .after-slider .home-livestock .right{
+        padding: 0px 120px;
+    }
+    .home-tractor .container-cus {
+        grid-template-columns: 40% 48%;
+        justify-content: space-between;
+    }
+    .home-tractor .left h3{
+        margin-bottom: 28px;
+        margin-top: 60px;
+    }
+    .contentpage .maincontent .two-img{
+        grid-column-gap: 25px;
+    }
+    .contentpage .maincontent .mission-box h2{
+        font-size: 1.6rem;
+    }
+    .contentpage .maincontent .mission-box p {
+        font-size: 21px;
+        line-height: 25px;
+        padding-right: 80px;
+    }
+    .contentpage .maincontent .mission-box:nth-child(4) .right{
+        padding-left: 80px;
+    }
+    .img-banner{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1220px) and (max-width: 1450px) {
+    .top-nav .left p {
+        font-size: 13px;
+        padding: 3px 0px;
+    }
+    .top-nav .right ul li a span {
+        padding: 2px 0px;
+        display: block;
+    }
+    .nav-cus .container-cus{
+        grid-template-columns: 19% 62% 19%;
+    }
+    .nav-cus .left img {
+        height: auto;
+        width: 100%;
+    }
+    .nav-cus .center ul li a{
+        padding: 34.5px 12px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-cus .center ul li.active a::after,
+    .nav-cus .center ul li:hover a::after{
+        height: 5px;
+    }
+    .nav-cus .right .search-box .search-icon img {
+        height: 32px;
+    }
+    .nav-cus .right .search-box .search-input{
+        height: 32px;
+    }
+    .nav-cus .right .search-box .search-input input{
+        padding: 4.5px 14px;
+        font-size: 13px;
+    }
+    .after-slider .home-gren-box{
+        margin-bottom: 36px;
+    }
+    .after-slider .home-livestock p{
+        margin-bottom: 10px;
+    }
+    .after-slider h2{
+        font-size: 1.3rem;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+    .after-slider p{
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .after-slider .btn-box a.btn-g{
+        padding: 10px 22px;
+        font-size: 15px;
+    }
+    .cta-box a{
+        padding: 20px 80px;
+    }
+    .cta-box a img{
+        width: 35px;
+        margin-top: -6px;
+    }
+    .cta-box a span{
+        font-size: 19px;
+    }
+    .home-tractor .left .strip::before{
+        height: calc(100% - 19px);
+    }
+    .home-tractor .left h3{
+        font-size: 2.26rem;
+        margin-bottom: 18px;
+    }
+    .home-tractor .left h3 span{
+        font-size: 1.23rem;
+    }
+    .home-tractor .left p{
+        padding: 28px 0px;
+    }
+    .home-tractor .left a{
+        font-size: 14px;
+        padding: 10px 23px;
+    }
+    .home-subscribe .right .subscribe-box{
+        padding: 30px 24px;
+    }
+    .home-subscribe .right .subscribe-box p {
+        font-size: 18px;
+        padding: 6px 0px;
+    }
+    .home-subscribe .right .subscribe-box .input-box img {
+        width: 27px;
+        top: 6px;
+    }
+    .home-subscribe .right .subscribe-box .input-box input{
+        height: 40px;
+    }
+    .home-subscribe .right .subscribe-box a{
+        padding: 8px 30px;
+    }
+    .before-footer img.footer-logo {
+        width: 148px;
+    }
+    .before-footer ul li a{
+        font-size: 14px;
+        padding: 0px 16px;
+    }
+    .footer p {
+        font-size: 11px;
+        padding: 4px 0px;
+    }
+    .footer .center ul li a img {
+        height: 16px;
+    }
+    .pagehead h2{
+        font-size: 1.3rem;
+        padding: 25px 0px;
+    }
+    .contentpage .sidebar ul li a {
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+    .contentpage .sidebar ul li a::before{
+        width: 6px;
+    }
+    .contentpage .sidebar ul li .sub li a{
+        padding: 7px 36px;
+        font-size: 15px;
+    }
+    .contentpage .maincontent .heading {
+        font-size: 1.65rem;
+    }
+    .top-btn a{
+        padding: 9px 52px;
+        font-size: 16px;
+    }
+    .cta-box a {
+        padding: 18px 70px;
+    }
+    .cta-box a img {
+        width: 32px;
+        margin-top: -5px;
+    }
+    .cta-box a span {
+        font-size: 17px;
+    }
+    .contentpage .maincontent .dis-p{
+        font-size: 15px;;
+    }
+    .contentpage .maincontent .vision-values .icon-grid{
+        padding: 0px 100px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid .icon img {
+        width: 110px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid .icon p{
+        font-size: 16px;
+    }
+    .contentpage .maincontent .mission-box h2{
+        font-size: 1.35rem;
+    }
+    .contentpage .maincontent .mission-box p {
+        font-size: 16px;
+    }
+    .contentpage .maincontent .mission-box img.sm-logo {
+        width: 26px;
+    }
+    .sm-box-grid .box p{
+        font-size: 15px;
+        font-weight: 500;
+        padding: 20px 0px;
+    }
+    .sm-box-grid .box p.sm-p{
+        margin-top: -36px;
+    }
+    .head-withicon{
+        grid-template-columns: 1fr 110px;
+    }
+    .lstock-box.odd .right {
+        padding-left: 60px;
+    }
+    .lstock-box.even .left{
+        padding-right: 60px;
+    }
+    .lstock-box h2 {
+        font-size: 1.6rem;
+    }
+    .lstock-box p{
+        font-size: 15px;
+    }
+    .lstock-box ul li{
+        padding-left: 30px;
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+    .lstock-box ul li::before{
+        top: 6px;
+        width: 11px;
+        height: 11px;
+    }
+    .img-banner{
+        margin-top: 20px;
+    }
+    .img-banner .left p {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .agro-text h3{
+        font-weight: 600;
+        font-size: 1.24rem;
+        margin-bottom: 13px;
+    }
+    .num-box .box p{
+        font-size: 16px;
+    }
+    .investment-box h3{
+        font-size: 1.3rem;
+    }
+    .investment-box ul li::before{
+        width: 8px;
+        height: 8px;
+    }
+    .contactpage .c-heading h1 {
+        font-size: 1.6rem;
+    }
+    .contactpage .c-body h3{
+        font-size: 1.05rem;
+    }
+    .contactpage .c-body .right .location p {
+        font-size: 14px;
+    }
+}
+@media (min-width: 0px) and (max-width: 1024px) {
+    .mg-bot-40 {
+        margin-bottom: 15px;
+    }
+    .mg-bot-25 {
+        margin-bottom: 15px;
+    }
+    .top-nav .left p{
+        font-size: 12px;
+    }
+    .top-nav .right ul li a{
+        font-size: 13px;
+    }
+    .nav-opener{
+        display: inline-block;
+        padding-right: 10px;
+        margin-right: 6px;
+        border-right: 1px solid #373737;
+    }
+    .nav-opener img{
+        height: 29px !important;
+    }
+    .nav-cus .container-cus{
+        grid-template-columns: 50% 50%;
+    }
+    .nav-cus .center{
+        display: none;
+    }
+    .nav-cus .left a{
+        padding: 13px 0px;
+    }
+    .nav-cus .left img {
+        height: 55px;
+    }
+    .nav-cus .right .search-box{
+        padding: 24.5px 0px;
+    }
+    .nav-cus .right .search-box .search-icon img {
+        height: 32px;
+    }
+    .nav-cus .right .search-box .search-input{
+        height: 31px;
+    }
+    .nav-cus .right .search-box .search-input input{
+        padding: 3.5px 14px;
+    }
+    .home-slider img {
+        width: 110% !important;
+        margin-left: -5%;
+    }
+    .home-slider .carousel-indicators {
+        width: 77%;
+    }
+    .after-slider {
+        padding: 50px 8.9%;
+    }
+    .after-slider h2 {
+        font-size: 1.2rem;
+        line-height: 21px;
+        margin-bottom: 15px;
+    }
+    .after-slider h2 br{
+        display: none;
+    }
+    .after-slider p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .after-slider .btn-box {
+        margin-top: 15px;
+    }
+    .after-slider .btn-box a.btn-g{
+        font-size: 15px;
+        font-weight: 400;
+        padding: 8px 20px;
+    }
+    .after-slider .home-gren-box{
+        grid-template-columns: 50% 50%;
+        margin-bottom: 40px;
+    }
+    .after-slider .home-gren-box .left{
+        padding: 0px 25px;
+    }
+    .after-slider .home-livestock .right {
+        padding: 0px 25px;
+    }
+    .cta-box{
+        margin: 50px 0px;
+    }
+    .cta-box a {
+        padding: 15px 45px;
+    }
+    .cta-box a img{
+        width: 32px;
+        margin-top: -6px;
+        margin-right: 10px;
+    }
+    .cta-box a span{
+        font-size: 17px;
+    }
+    .home-tractor {
+        padding: 50px 8.9%;
+        padding-top: 0px;
+    }
+    .home-tractor .left .strip::before{
+        width: 110vw;
+        height: calc(100% - 18px);
+    }
+    .home-tractor .left h3{
+        font-size: 2.16rem;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .home-tractor .left h3 span{
+        font-size: 1.19rem;
+    }
+    .home-tractor .left p {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 25px 0px;
+    }
+    .home-tractor .left a{
+        font-size: 14px;
+        padding: 10px 22px;
+    }
+    .home-tractor .right img{
+        margin-top: 24px;
+    }
+    .home-subscribe{
+        padding: 40px 8.9%;
+    }
+    .home-subscribe .container-cus{
+        grid-template-columns: 32% 65%;
+    }
+    .home-subscribe .left h1{
+        font-size: 1.28rem;
+        margin-bottom: 14px;
+    }
+    .home-subscribe .right .subscribe-box{
+        grid-column-gap: 18px;
+        padding: 34px 25px;
+    }
+    .home-subscribe .right .subscribe-box p{
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 0px;
+    }
+    .home-subscribe .right .subscribe-box .input-box img{
+        width: 28px;
+        top: 7px;
+        left: 10px;
+    }
+    .home-subscribe .right .subscribe-box .input-box input{
+        padding-left: 50px;
+        font-size: 12px;
+        height: 40px;
+    }
+    .home-subscribe .right .subscribe-box a{
+        font-size: 15px;
+        padding: 9px 28px;
+    }
+    .before-footer{
+        padding: 30px 0px;
+    }
+    .before-footer img.footer-logo {
+        width: 150px;
+        margin-bottom: 30px;
+    }
+    .before-footer ul li a{
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0px 16px;
+    }
+    .footer {
+        padding: 30px 8.9%;
+        padding-top: 0px;
+    }
+    .footer .container-cus{
+        grid-template-columns: 32% 1fr 32%;
+    }
+    .footer p {
+        font-size: 11px;
+        padding: 4px 0px;
+    }
+    .footer .center ul li a img {
+        height: 15px;
+    }
+    .contentpage{
+        padding: 25px 3%;
+        grid-template-columns: 19% 68%;
+        grid-column-gap: 4%;
+    }
+    .contentpage .sidebar ul li a{
+        font-size: 14px;
+        padding: 11px 28px;
+    }
+    .contentpage .sidebar ul li a::before{
+        width: 5px;
+    }
+    .contentpage .sidebar ul li a::after{
+        height: 7px;
+    }
+    .contentpage .maincontent .heading {
+        font-size: 1.5rem;
+    }
+    .contentpage .maincontent .dis-p{
+        font-size: 14px;
+    }
+    .contentpage .maincontent .two-img{
+        grid-column-gap: 8px;
+    }
+    .top-btn{
+        padding-top: 28px;
+    }
+    .top-btn a{
+        padding: 8px 44px;
+        font-size: 16px;
+    }
+    .contentpage .maincontent .vision-values .heading {
+        padding-top: 36px;
+        padding-bottom: 20px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid{
+        grid-row-gap: 30px;
+        padding: 0px 0px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid .icon img {
+        width: 90px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid .icon p {
+        font-size: 15px;
+        margin-top: 9px;
+    }
+    .contentpage .maincontent .mission-box {
+        margin-bottom: 30px;
+    }
+    .contentpage .maincontent .mission-box h2{
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    .contentpage .maincontent .mission-box p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+    .contentpage .maincontent .mission-box img.sm-logo {
+        width: 24px;
+    }
+    .head-withicon{
+        grid-template-columns: 1fr 110px;
+        grid-column-gap: 20px;
+        margin-bottom: 0px;
+    }
+    .sm-box-grid{
+        grid-column-gap: 8px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sm-box-grid .box p {
+        text-align: center;
+        font-weight: 500;
+        padding: 14px 0px;
+        font-size: 14px;
+    }
+    .sm-box-grid .box p.sm-p{
+        margin-top: -26px;
+    }
+    .lstock-box.odd .right {
+        padding-left: 17px;
+    }
+    .lstock-box h2 {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+    .lstock-box p{
+        font-size: 14px;
+    }
+    .lstock-box.even .left {
+        padding-right: 17px;
+    }
+    .lstock-box ul li{
+        font-size: 15px;
+        margin-bottom: 8px;
+        padding-left: 24px;
+    }
+    .lstock-box ul li::before{
+        width: 10px;
+        height: 10px;
+    }
+    .contentpage .sidebar ul li .sub li a {
+        padding: 7px 36px;
+        font-size: 14px;
+    }
+    .img-banner{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .img-banner .left p {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .agro-text {
+        grid-template-columns: 48% 48%;
+        grid-row-gap: 19px;
+        justify-content: space-between;
+    }
+    .agro-text h3{
+        font-size: 1.23rem;
+        min-height: 50px;
+        margin-bottom: 9px;
+    }
+    .agro-text p {
+        font-size: 14px;
+    }
+    .agro-text ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 19px;
+    }
+    .agro-text ul li {
+        font-size: 14px;
+    }
+    .agro-text .box:nth-child(2){
+        grid-template-columns: 1fr;
+        grid-column: 1 / 3;
+    }
+    .agro-text .box:nth-child(2) .box-s h3{
+        min-height: 0px;
+    }
+    .agro-text .box:nth-child(3){
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+    .num-box {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 120px 120px;
+        grid-gap: 8px;
+    }
+    .num-box .box p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .investment-box h3{
+        font-size: 1.23rem;
+    }
+    .investment-box p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .investment-box ul li {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 20px;
+        margin-bottom: 6px;
+    }
+    .investment-box ul li::before{
+        width: 8px;
+        height: 8px;
+    }
+    .investment-box.with-border{
+        padding-bottom: 26px;
+    }
+    .investment-box{
+        margin-bottom: 30px;
+        grid-template-columns: 47% 47%;
+    }
+    .contactpage .c-heading {
+        padding: 0px 8.9%;
+    }
+    .contactpage .c-heading h1 {
+        font-size: 1.3rem;
+    }
+    .contactpage .c-body{
+        padding: 0px 8.9%;
+    }
+    .contactpage .c-body .container-cus{
+        grid-template-columns: 47% 47%;
+        margin-top: 26px;
+    }
+    .contactpage .c-body h3{
+        font-size: 1rem;
+        margin-bottom: 24px;
+    }
+    .contactpage .c-body .left .form-cus{
+        padding: 14px 20px;
+    }
+    .contactpage .c-body .left .form-cus .i-row {
+        margin-bottom: 10px;
+    }
+    .contactpage .c-body .left .form-cus .i-row input{
+        height: 32px;
+    }
+    .contactpage .c-body .left .form-cus .i-row .btn-green{
+        padding: 6px 32px;
+        margin-bottom: 0px;
+        font-size: 15px;
+    }
+    .contactpage .c-body .right .location {
+        margin-bottom: 40px;
+    }
+    .contactpage .c-body .right .location p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 0px) and (max-width: 769px) {
+    .verti-center-box .verti-box{
+        top: 0%;
+        transform: translateY(-0%);
+    }
+    .mbl-nav .box{
+        width: 40%;
+    }
+    .nav-cus .shadow-nav{
+        bottom: -14px;
+    }
+    .after-slider {
+        padding: 35px 8.9%;
+    }
+    .after-slider .home-gren-box {
+        grid-template-columns: 100%;
+        margin-bottom: 25px;
+    }
+    .after-slider .home-gren-box .left {
+        padding: 40px 50px;
+    }
+    .after-slider .home-livestock{
+        grid-template-columns: 100%;
+    }
+    .after-slider .home-livestock .right{
+        padding: 40px 50px;
+    }
+    .home-tractor .container-cus{
+        grid-template-columns: 100%;
+    }
+    .home-tractor .left .strip::before {
+        width: 145vw;
+    }
+    .home-subscribe .container-cus {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .home-subscribe {
+        padding: 30px 8.9%;
+    }
+    .home-subscribe .container-cus::after{
+        content: none;
+    }
+    .pagehead h2{
+        font-size: 1.4rem;
+        padding: 24px 0px;
+    }
+    .contentpage {
+        grid-template-columns: 1fr;
+        padding: 25px 11.3%;
+    }
+    .contentpage .sidebar{
+        display: none;
+    }
+    .contentpage .maincontent .vision-values .icon-grid .icon img {
+        width: 80px;
+    }
+    .contentpage .maincontent .mission-box p{
+        padding-right: 20px;
+    }
+    .contentpage .maincontent .mission-box:nth-child(4) .right{
+        padding-left: 20px;
+    }
+    .contentpage .maincontent .mission-box {
+        grid-template-columns: 1fr;
+        grid-row-gap: 14px;
+        margin-bottom: 18px;
+    }
+    .contentpage .maincontent .mission-box:nth-child(4) .right{
+        padding-left: 0px;
+    }
+    .lstock-box {
+        grid-template-columns: 1fr !important;
+        grid-row-gap: 12px;
+    }
+    .lstock-box.odd .right{
+        padding-left: 0px;
+    }
+    .investment-box.with-border{
+        grid-template-columns: 47% 47%;
+    }
+    .investment-box{
+        grid-template-columns: 1fr;
+        margin-bottom: 12px;
+        grid-row-gap: 12px;
+    }
+}
+@media (min-width: 0px) and (max-width: 569px) {
+    .top-nav{
+        border-bottom: 2px solid #4a8132;
+    }
+    .top-nav .left{
+        display: none;
+    }
+    .top-nav .right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .top-nav .right ul li{
+        margin: 0px 5px;
+    }
+    .top-nav .right ul li a {
+        font-size: 12px;
+    }
+    .top-nav .right ul li a span img{
+        margin-top: -2px;
+    }
+    .nav-cus .container-cus {
+        grid-template-columns: auto 1fr;
+    }
+    .nav-opener img {
+        height: 24px !important;
+    }
+    .nav-cus .shadow-nav {
+        bottom: -5px;
+    }
+    .nav-cus .left img {
+        height: 45px;
+    }
+    .nav-cus .right .search-box .search-icon img {
+        height: 26px;
+    }
+    .nav-cus .right .search-box .search-input {
+        height: 28px;
+    }
+    .nav-cus .right .search-box .search-input input {
+        padding: 1.5px 11px;
+    }
+    .home-slider .m-slider{
+        display: block !important;
+    }
+    .home-slider .d-slider{
+        display: none !important;
+    }
+    .home-slider .carousel-indicators {
+        width: 93%;
+    }
+    .home-slider .carousel-indicators li{
+        height:5px;
+    }
+    .after-slider {
+        padding: 25px 4%;
+    }
+    .after-slider .home-gren-box{
+        margin-bottom: 12px;
+    }
+    .after-slider .home-gren-box .left {
+        padding: 24px 26px;
+    }
+    .after-slider .btn-box a.btn-g {
+        font-weight: 400;
+        padding: 6px 8px;
+    }
+    .after-slider .btn-box p{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .after-slider .home-livestock .right {
+        padding: 24px 26px;
+    }
+    .cta-box {
+        margin: 26px 0px;
+    }
+    .cta-box a {
+        padding: 10px 23px;
+    }
+    .cta-box a img {
+        width: 26px;
+        margin-top: -2px;
+        margin-right: 8px;
+    }
+    .cta-box a span {
+        font-size: 14px;
+    }
+    .home-tractor .left{
+        text-align: center;
+    }
+    .home-tractor .left h3 {
+        font-size: 2rem;
+    }
+    .home-tractor .left h3 span {
+        font-size: 1.1rem;
+    }
+    .home-tractor .left p{
+        padding: 16px 0px;
+    }
+    .home-tractor .left a{
+        padding: 8px 25px;
+    }
+    .home-subscribe {
+        padding: 25px 4%;
+    }
+    .home-subscribe .right .subscribe-box{
+        grid-template-columns: 1fr;
+        grid-row-gap: 7px;
+        padding: 16px 16px;
+    }
+    .home-subscribe .right .subscribe-box p {
+        padding-top: 0px;
+        margin-top: -8px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .home-subscribe .right .subscribe-box a{
+        text-align: center;
+    }
+    .before-footer {
+        padding: 20px 0px;
+    }
+    .before-footer img.footer-logo {
+        width: 140px;
+        margin-bottom: 22px;
+    }
+    .before-footer ul li {
+        display: block;
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+    .footer {
+        padding: 19px 4.9%;
+        padding-top: 0px;
+    }
+    .footer .container-cus {
+        grid-template-columns: 1fr;
+    }
+    .footer .left{
+        text-align: center;
+    }
+    .footer .right{
+        text-align: center;
+    }
+    .mbl-nav .box {
+        width: 70%;
+    }
+    .mbl-nav .box .head img.mbl-logo {
+        width: 153px;
+        margin-top: 0px;
+    }
+    .mbl-nav .box ul{
+        padding: 20px 25px;
+    }
+    .mbl-nav .box ul li a{
+        padding: 7px 0px;
+        font-size: 15px;
+    }
+    .mbl-nav .box ul li a svg {
+        width: 23px;
+        height: 23px;
+        margin-top: -3px;
+    }
+    .mbl-nav .box .categ .categ-close {
+        padding: 20px 24px;
+        padding-bottom: 0px;
+        font-size: 14px;
+    }
+    .mbl-nav .box .categ .categ-close svg {
+        width: 23px;
+        height: 23px;
+    }
+    .pagehead h2 {
+        font-size: 1.2rem;
+        padding: 16px 0px;
+    }
+    .contentpage{
+        padding: 15px 4%;
+    }
+    .contentpage .maincontent .heading {
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+    }
+    .contentpage .maincontent .dis-p{
+        line-height: 20px;
+    }
+    .mg-bot-25 {
+        margin-bottom: 8px;
+    }
+    .top-btn {
+        padding-top: 12px;
+    }
+    .top-btn a {
+        padding: 6px 33px;
+        font-size: 15px;
+    }
+    .contentpage .maincontent .vision-values .heading {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 18px;
+    }
+    .contentpage .maincontent .vision-values .icon-grid .icon p{
+        line-height: 14px;
+    }
+    .contentpage .maincontent .mission-box{
+        grid-template-columns: 1fr;
+        grid-row-gap: 12px;
+        margin-bottom: 15px;
+    }
+    .contentpage .maincontent .mission-box h2 {
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+    .contentpage .maincontent .mission-box:nth-child(4) .right {
+        padding-left: 0px;
+    }
+    .head-withicon {
+        grid-template-columns: 1fr;
+    }
+    .head-withicon .right img {
+        width: 37%;
+        margin: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .sm-box-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .lstock-box{
+        grid-template-columns: 1fr !important;
+        grid-row-gap: 12px;
+    }
+    .lstock-box.odd .right{
+        padding-left: 0px;
+    }
+    .img-banner {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        grid-template-columns: 1fr;
+    }
+    .img-banner .left{
+        padding: 25px 0px;
+    }
+    .img-banner .left p {
+        font-size: 18px;
+        line-height: 19px;
+        transform: translateY(-0%);
+    }
+    .img-banner .left p span {
+        text-align: center;
+    }
+    .agro-text {
+        grid-template-columns: 1fr;
+    }
+    .agro-text .box:nth-child(2){
+        grid-column: auto;
+    }
+    .agro-text .box:nth-child(3){
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .agro-text h3 {
+        font-size: 1.13rem;
+        min-height: auto;
+        margin-bottom: 7px;
+    }
+    .agro-text ul {
+        grid-template-columns: 1fr;
+    }
+    .num-box{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 100px);
+    }
+    .investment-box{
+        grid-template-columns: 1fr;
+        grid-row-gap: 12px;
+        margin-bottom: 20px;
+    }
+    .investment-box.with-border {
+        padding-bottom: 15px;
+    }
+    .contactpage {
+        padding: 15px 0%;
+    }
+    .contactpage .c-heading{
+        padding: 0px 4%;
+    }
+    .contactpage .c-body{
+        padding: 0px 4%;
+    }
+    .contactpage .c-body .container-cus{
+        grid-template-columns: 1fr;
+        grid-row-gap: 18px;
+        margin-top: 20px;
+    }
+    .contactpage .c-body h3 {
+        font-size: 0.9rem;
+        margin-bottom: 6px;
+    }
+    .contactpage .c-body .right .location {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 0px) and (max-width: 360px) {
+}
