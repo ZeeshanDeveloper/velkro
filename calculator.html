@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Velkro | Calculator</title>
+
+  <!--bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!--stylesheet-->
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="css/styles.min.css"/>
+
+  <!--wow scroll-->
+  <link rel="stylesheet" href="css/animate.css">
+
+  <!--Jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="js/wow.min.js"></script>
+
+
+</head>
+
+<body>
+  <div class="mbl-nav">
+    <div class="box">
+        <div class="head">
+            <img class="mbl-nav-opener" src="img/icon/nav.jpg">
+            <a href="home">
+                <img src="img/logo.png" id="img_LogoMobile" class="mbl-logo">
+            </a>
+        </div>
+        <ul class="norm">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#global">Global Footprint</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+      </ul>
+    </div>
+</div>
+  <section class="nav-cus">
+    <div class="container-cus">
+      <div class="mbl-nav-opener">
+        <img src="img/nav.png"/>
+      </div>
+      <div class="logo">
+        <img src="img/logo.png"/>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="index.html#global">Global Footprint</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+        </ul>
+        <div class="nav-btn">
+          <a href="index.html#contact">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section calculator">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <form class="form calculator-form" action="javascript:void(0);">
+            <h5 class="calculator-form__title heading__title">Calculation form</h5>
+            <div class="bottom-0">
+              <div class="row bottom-20">
+                <div class="col-6 text-center">
+                  <div class="col-12 bottom-20">
+                    <label class="form__radio-label"><span class="form__label-text">Cubic Meter</span>
+                      <input class="form__input-radio" type="radio" name='calc-type'><span class="form__radio-mask"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-6 text-center">
+                  <div class="col-12 bottom-20">
+                    <label class="form__radio-label"><span class="form__label-text">Cubic Feet</span>
+                      <input class="form__input-radio" type="radio" name='calc-type'><span class="form__radio-mask"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 bottom-20">
+                  <label>Unit of measurement</label>
+                  <select class="form-control">
+                    <option>mm</option>
+                    <option>cm</option>
+                    <option>meter</option>
+                  </select>
+                </div>
+                <div class="col-sm-6 bottom-20">
+                  <label>Length</label>
+                  <input class="form-control" type="text"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 bottom-20">
+                  <label>Width</label>
+                  <input class="form-control" type="text"/>
+                </div>
+                <div class="col-sm-6 bottom-20">
+                  <label>Height</label>
+                  <input class="form-control" type="text"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 bottom-20">
+                  <label>Gross Weight</label>
+                  <div class="row mr-0 ml-0 input-group ">
+                      <input type="text" class="form-control col-8" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    
+                      <select class="input-group-text form-control col-4">
+                        <option>KG</option>
+                        <option>GM</option>
+                      </select>
+                    
+                    
+                  </div>
+                </div>
+                <div class="col-sm-6 bottom-20">
+                  <label>Quantity</label>
+                  <input class="form-control" type="text"/>
+                </div>
+              </div>
+            </div>
+            <div class="row bottom-40">
+              <div class="col-12">
+                <button class="button button--green" type="submit"><span>Calculate</span> 
+                  <svg class="icon">
+                    <use xlink:href="#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="bottom-0">
+              <div class="row">
+                <div class="col-sm-6 bottom-10">
+                  <label>Volume (Cubic Meter) </label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+                <div class="col-sm-6 bottom-10">
+                  <label>Volume (Cubic Feet)</label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 bottom-10">
+                  <label>Weight (Kg)</label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+                <div class="col-sm-6 bottom-10">
+                  <label>Weight (lb)</label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+              </div>
+              <div class="row">
+                <label>Volumetric Weight Sea</label>
+                <div class="col-sm-6 bottom-10">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                    <span class="input-group-text" id="basic-addon2">kg</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 bottom-10">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                    <span class="input-group-text" id="basic-addon2">lb</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <label>Volumetric Weight Air</label>
+                <div class="col-sm-6 bottom-10">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                    <span class="input-group-text" id="basic-addon2">kg</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 bottom-10">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                    <span class="input-group-text" id="basic-addon2">lb</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 bottom-10">
+                  <label>20 Feet Container</label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+                <div class="col-sm-6 bottom-10">
+                  <label>40 Feet Container</label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6 bottom-10">
+                  <label>40 Feet HC Container</label>
+                  <input class="form-control" type="text" disabled/>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-4 col-xl-3 offset-xl-1">
+          <div class="contact-trigger contact-trigger--style-2"><img class="contact-trigger__img" src="img/contact_background.png" alt="img">
+            <h4 class="contact-trigger__title">How we can help you!</h4>
+            <p class="contact-trigger__text">Do you have any questions or comments? Please contact us</p><a class="button button--white" href="#"><span>Contact us</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer"><img class="section--bg b0 r0" src="img/footer-bg.png" alt="bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <h6 class="page-footer__title title--white">Discover</h6>
+          <ul class="page-footer__menu list--reset">
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="index.html#served">Industries Served</a></li>
+            <li><a href="index.html#services">Services Offered</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#global">Global Footprint</a></li>
+            <li><a href="calculator.html">Calculator</a></li>
+            <li><a href="incoterm.html">Incoterms</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-5 col-xl-4 offset-xl-1 top-40 top-md-0">
+          <h6 class="page-footer__title title--white">Karachi office</h6>
+          <div class="page-footer__details">
+            <p><strong>Location:</strong> <span>Office No. 202, 2nd Floor, Plot No. 66-C, 21st Commercial Street </span></p>
+            <p><strong>Phone:</strong> <a href="tel:+922135893771">+92 21 35893771</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@transx.com">info@velkropacific.com</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3 d-flex flex-column justify-content-between align-items-sm-center align-items-lg-end top-40 top-lg-0">
+          <div class="page-footer__logo"><a href="index.html"><img src="img/footer-logo.png" alt="logo"></a></div>
+          <ul class="socials list--reset">
+            <li class="socials__item"><a class="socials__link" href="#">
+              <svg class="icon" viewBox="0 0 1024 1017.81" id="facebook" xmlns="http://www.w3.org/2000/svg"><g data-name="Слой 2"><path d="M1024 512C1024 229.25 794.75 0 512 0S0 229.25 0 512c0 255.53 187.2 467.36 432 505.81V660H302V512h130V399.17c0-128.31 76.47-199.23 193.39-199.23 56 0 114.63 10 114.63 10V336h-64.58c-63.58 0-83.45 39.46-83.45 80v96H734l-22.7 148H592v357.77C836.8 979.43 1024 767.6 1024 512z" data-name="Слой 1"></path></g></svg></a></li>
+            <li class="socials__item"><a class="socials__link" href="#">
+              <svg class="icon" viewBox="0 0 6701 5446" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" id="twitter" xmlns="http://www.w3.org/2000/svg"><path d="M6701 645c-247 109-512 183-790 216 284-170 502-440 604-761-266 158-560 272-873 334C5391 167 5034 0 4638 0c-759 0-1375 616-1375 1375 0 108 12 213 36 313-1143-57-2156-605-2834-1437-118 203-186 439-186 691 0 477 243 898 612 1144-225-7-437-69-623-172v17c0 666 474 1222 1103 1348-115 31-237 48-362 48-89 0-175-9-259-25 175 546 683 944 1284 955-471 369-1063 589-1708 589-111 0-220-7-328-19 608 390 1331 618 2108 618 2529 0 3912-2095 3912-3912 0-60-1-119-4-178 269-194 502-436 686-712z"></path></svg></a></li>
+            <li class="socials__item"><a class="socials__link" href="#">
+              <svg class="icon" viewBox="0 5 1036 990" id="linkedin" xmlns="http://www.w3.org/2000/svg"><path d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z"></path></svg></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row top-50">
+        <div class="col-lg-6 text-sm-center text-lg-left" style="display: none;">
+          <div class="page-footer__privacy"><a href="#">Terms and conditions</a><a href="#">Privacy policy</a><a href="#">Cookies</a></div>
+        </div>
+        <div class="col-lg-12 text-sm-cente">
+          <div class="page-footer__copyright">© 2020 Velkro. All rights reserved</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modal service-modal fade" id="services-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ocean Freight</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="text-justify">Velkro Pacific Solutions offers the best Ocean Freight Services as Complete Logistics Solution Provider with full satisfaction and security.</p>
+              <p class="text-justify">We have affiliated with shipping companies to ensure that the necessary capacity is readily available around the globe to connect reliably & fulfill all the customer's requirements. We work together with you to develop a customized logistics solution tailored precisely to your needs – from partial loads (LCL) to full-container (FCL) solutions. We handle a wide range of Ocean Freight Export & Import Tues worldwide on annual basis, ensuring that your cargo reaches the right place, at the right time in the most cost-efficient way. This not only makes us unique in the industry but also the best option available for our valued customers as a trusted organization.</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_4/i2.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal service-modal fade" id="services-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ocean Freight</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="text-justify">Air Freight is one of our categories of services that dominantly use an air mode, offering delivery speed choice that best suits our customers’ requirements. With our global network of agents, Velkro Pacific Solution provides our customers with a comprehensive range of import / export Air Freight Services. Whatever your requirements are, we at Velkro Pacific Services tailor our services to meet your needs, providing flexible Air Freight Logistics options to meet the highly customized demands of customers, which includes; Door-to-Door Services, Airport-to-Airport Services, Door-to-Airport Services, and Airport-to-Door Services. In addition, we specialize in handling of hazardous and dangerous cargo, having the necessary qualifications and licenses to transport these shipments safely through our international freight forwarders network.</p>
+              <ul>
+                <li>Door to Door, Airport to Door & Airport to Airport services available.</li>
+                <li>Origin & Destination customs clearance.</li>
+                <li>Projects and time definite services.</li>
+                <li>Currently carrying 360 tons for export and 240 tons imports per annum.</li>
+              </ul>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_4/i1.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal service-modal fade" id="services-3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Road & Rail Transport</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="text-justify">Certain destinations are reached through land routes therefore; delivering goods by Road & Railways are of the most convenient and easiest way of transportation, which leads to lower cost as compared to other methods of freight and logistics. Most freight forwarders prefer to transport their local goods by simplest logistics means of road / rail transportation because it cost them the least.</p>
+              <p class="text-justify">Because of the preference of companies to deliver goods by road through containers and other similar available choices of good quality in-order to ensure the safety and security of the deliverable, we at Velkro Pacific Services ensure to provide our customers flexible, reliable, & efficient overland transportation through Road, Rail & intermodal transportation services.</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_4/i9.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal service-modal fade" id="services-4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Warehousing & Distribution</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="text-justify">Improved service, reduced costs and enhanced performance are the goals of our warehousing and distribution operations. Using these areas for competitive advantage requires real focus on proper planning and continuous improvement. We design each project to meet the state of the marketplace and support your company's strategic plan. We ensure that our processes provide information to efficiently manage the flow of materials, effectively utilize people and equipment, coordinate internal activities, and communicate with customers so that you make more accurate and timely decisions to manage your warehouse operations. Our customer can also have the advantage to get a tailor made warehouse solutions for all their competitive needs.</p>
+              <p class="text-justify">At Velkro Pacific Solution, we specialize in commercial cargo warehousing facilities, including; 24 hours security, bonded and non-bonded storage services and efficient loading / unloading, with special attention to quality, safety and convenience.</p>
+              <p class="text-justify">Professionally managed and secured, our warehouse services are designed specially to meet the industrial & commercial needs.</p>
+              <ul>
+                <li>Short term and long term storage for both inbound & outbound routes.</li>
+                <li>Pickup and delivery options.</li>
+                <li>CCTV Monitoring for security purpose.</li>
+                <li>Competitive and affordable charges.</li>
+              </ul>
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_4/i4.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal service-modal fade" id="services-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Project Handling</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="text-justify">Project Cargo handling is one of the most complex transportation service requiring special expertise & experience. Our Project handling division is an added product in the range of services we offer, having all the professional & infrastructure capabilities for managing total logistics in Project Cargos.</p>
+              <p class="text-justify">For Velkro Pacific Solution- No Load is Huge Load and No Job is Highly Complex. From the selection of equipment to cargo loading, securing, & unloading activities including; determination of jurisdictional weight and size restrictions, relocation of utilities and obstacles etc., we manage the entire job in one window operation.</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_2/i9.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal service-modal fade" id="services-6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">DG Cargo Handling</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <p class="text-justify">Transportation of dangerous goods is a complex procedure, requiring detailed understanding and knowledge of the relevant regulations. Velkro Pacific Solution specializes in all aspects of dangerous goods handling FCL/LCL, from identification to packaging, marking, labeling and documentation. We handle nearly every class of dangerous goods across a wide range of products, including:</p>
+              <ul>
+                <li>Chemicals / Fine chemicals / Petrochemicals</li>
+                <li>Petroleum products</li>
+                <li>Liquefied gases</li>
+                <li>Aerosols / Cosmetics</li>
+                <li>Paints</li>
+                <li>Batteries</li>
+                <li>Dry-ice</li>
+                <li>Explosives</li>
+                <li>Gases</li>
+                <li>Flammable Liquids / Flammable Solids</li>
+              </ul>
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_4/i4.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal service-modal fade" id="services-7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Custom House Brokerage</h5>
+          <svg xmlns="http://www.w3.org/2000/svg" data-bs-dismiss="modal" aria-label="Close" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-7">
+              <ul>
+                <li>Velkro Pacific Solution having an experienced team to manage Custom Clearance at competitive rates for our customer requirements</li>
+                <li>We provide services to claim rebates if any, complete documentation for import & export and FCL & LCL shipments</li>
+                <li>Fast track clearance process</li>
+                <li>Technical evaluation and Legal advice</li>
+                <li>Advice on Duty Draws back</li>
+              </ul>
+
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+              <img src="img/pack_4/i4.svg" alt="icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <script src="js/main.js"></script>
+
+  <script src="js/libs.min.js"></script>
+		<!-- scripts-->
+	<script src="js/common.min.js"></script>
+
+  <script type="text/javascript">
+    $("a").click(function() {
+     var id =  $(this).attr('href');
+      $('html, body').animate({
+          scrollTop: $(id).offset().top-79
+      }, 400);
+    });
+    </script>
+</body>
+
+</html>
