@@ -75,7 +75,7 @@
       <p class="sm-txt">Then you are at right place</p>
       <a href="#contact">Contact Us</a>
     </div>
-      <video class="video-box" muted autoplay loop>
+      <video id="main-video" class="video-box" muted autoplay loop>
         <source src="video/1.mp4" type="video/mp4">
       </video>
   </section>
@@ -801,6 +801,11 @@
           scrollTop: $(id).offset().top-79
       }, 400);
     });
+	  
+	  $('document').ready(function(){
+	 	 var vid = document.getElementById("main-video");
+		  vid.playbackRate = 0.5;
+	  });
     </script>
 </body>
 
